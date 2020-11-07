@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "utility": "cpp",
+    "*.tcc": "cpp"
+  },
+  "files.autoSave": "afterDelay"
+}
