@@ -24,6 +24,10 @@ vector<string> split(string &str, char delimeter) {
   return v;
 }
 
+void removeChar(string &str, char charToRemove) {
+  str.erase(remove(str.begin(), str.end(), charToRemove), str.end());
+}
+
 int main() {
 
 
