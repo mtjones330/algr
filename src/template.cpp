@@ -28,6 +28,8 @@ void removeChar(string &str, char charToRemove) {
   str.erase(remove(str.begin(), str.end(), charToRemove), str.end());
 }
 
+char itoa(int i) { return '0' + i; }
+
 int main() {
 
 
